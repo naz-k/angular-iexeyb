@@ -4,6 +4,5 @@ import { Product } from './products';
 @Injectable()
 export class CartService {
   items: Product[] = [];
-
   constructor() {}
 }
